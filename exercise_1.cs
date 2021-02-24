@@ -44,7 +44,6 @@ namespace Taks24._02._2021
                 tasks[i] = Task.Run(() =>
                 {
                         Console.WriteLine($"Task #{Task.CurrentId}");
-                        Thread.Sleep(100);
                 });
             }
 
