@@ -10,7 +10,6 @@ namespace Taks24._02._2021
 {
     class Program
     {
-        static int[] numbers = new int[10];
         static void Main(string[] args)
         {
             Console.Write("Please enter number #1: ");
